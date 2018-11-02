@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>to do list</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="tolist.css" />
+    <script src="dolist.js"></script>
+</head>
+<body>
+    <h1>My To Do List</h1>
+    <form id="todoform">
+        Please give your details:<br>
+        User Name
+        <div><input type = "text" id = "fname" value = ""><br></div>
+        Email<br>
+        <div><input type="email" id="email" value="" name="email"><br></div>
+        <div>Please add you interests:<br></div>
+        <div><input id="todoinput">
+        <button type="button" class="addlist" onclick="todolist()">Add Interest</button><br></div>
+        Example
+    </form>
+    <ol id="todolist">
+        <li>I love Programming  </li>
+    </ol>   
+</body>
+</html>
