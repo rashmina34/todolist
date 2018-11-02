@@ -1,0 +1,56 @@
+/*body{
+    font-size: 20px;
+}
+#todoinput{
+    color: brown;
+}
+.addlist{
+    background-color: green;
+}
+input{
+    border: solid black 1px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: grey;
+}*/
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .addlist{
+    background-color: green;
+    font-size: 20px;
+}
+  
+  input {
+    padding: 10px;
+    width: 500px;
+    height: 15px;
+    font-size: 15px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: grey;
+
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 15px;
+    list-style: none;
+    margin: 0;
+  }
+  
+  li:hover {
+    text-decoration: line-through;
+  }
+  
